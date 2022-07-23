@@ -9,9 +9,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .main-btn{
+    padding: 10px 60px;
     background-color: var(--red-color);
     color:var(--yellow-color);
-    padding: 0.5rem 1rem;
 }
 .main-btn:hover{
     color:var(--red-color);
@@ -92,10 +92,13 @@ height: 200px;
     color: var(--yellow-color);
 }
 .our-work ul li{
-    padding: 0.5rem 1rem;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
 }
 .our-work ul li:not(.active):hover{
-    color: var(--red-color);
+    background-color: var(--red-color);
+    color: #ffc400;
 }
 .our-work .box{
     padding: 5px;
@@ -150,7 +153,8 @@ height: 200px;
 }
 .subscribe[type="text"]{
     display: none;
-    border-bottom: 1px solid white;
+    font-weight: bold;
+
 }
 .subscribe input[type="text"]:focus{
     outline: none;
@@ -158,16 +162,28 @@ height: 200px;
 .subscribe::placeholder{
     background-color: var(--dark-color);
     color: var(--yellow-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+.subscribe-btn{
+    padding: 10px 10px;
+    width: 250px;
+    background-color: var(--dark-color);
+    color:var(--yellow-color);
 }
 /*end subscribe*/
 /*start footer*/
 .footer{
     background-color: var(--dark-color);
 }
-.footer .copyright>span{
-    color:var(--green-color)
+.footer .copyright p{
+    font-size: 19px;
+    color: #eff7fa;
+    font-weight: 300;
 }
-.footer .copyright div span{
+.footer .copyright p span{
+    font-size: 20px;
+    font-weight: 400;
     color:var(--yellow-color)
 }
 /*end footer*/
